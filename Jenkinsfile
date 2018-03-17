@@ -1,4 +1,4 @@
-node {
+node( k8s{) { 
   def project = 'my-first-googel-project'
   def appName = 'gceme'
   def feSvcName = "${appName}-frontend"
